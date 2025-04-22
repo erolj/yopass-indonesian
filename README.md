@@ -20,7 +20,7 @@ Check this repository out and build your own container with the german language 
 ```
 git clone https://github.com/erolj/yopass-indonesian.git
 cd yopass-indonesian
-docker build -t erolj/yopassid -f Dockerfile
+docker build -t erolj/yopassid -f Dockerfile .
 ```
 
 ---
@@ -43,5 +43,5 @@ Cek repositori ini dan silahkan buat container Anda sendiri dengan menyertakan f
 ```
 git clone https://github.com/erolj/yopass-indonesian.git
 cd yopass-indonesian
-docker build -t erolj/yopassid -f Dockerfile
+docker build -t erolj/yopassid -f Dockerfile .
 ```
