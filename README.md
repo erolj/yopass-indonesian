@@ -1,14 +1,15 @@
-
-# yopass - German language file
+# yopass - Bahasa Indonesia language file
 
 ---
+
 ## English
-German language File for yopass by Johan Haals (jhaals/yopass)   
+
+Bahasa Indonesia language File for yopass by Johan Haals (jhaals/yopass)  
 [Yopass - Share Secrets Securely](https://github.com/jhaals/yopass)
 
 ### Installation
 
-Copy the website/public/locales/de.json file to the corresponding directory in your yopass installation.
+Copy the `website/public/locales/id.json` file to the corresponding directory in your yopass installation.
 
 yopass will automatically detect the new language and activate it if your Browser presents that language to yopass.
 
@@ -17,29 +18,30 @@ yopass will automatically detect the new language and activate it if your Browse
 Check this repository out and build your own container with the german language file included to the original Yopass-Image from docker.io.
 
 ```
-git clone https://github.com/Anturix/yopass-german.git
-cd yopass-german
-docker build -t anturix/yopassde -f Dockerfile
+git clone https://github.com/erolj/yopass-indonesian.git
+cd yopass-indonesian
+docker build -t erolj/yopassid -f Dockerfile
 ```
 
 ---
-## Deutsch
 
-Deutsche Sprachdatei für yopass von Johan Haals (jhaals/yopass)   
+## Bahasa Indonesia
+
+File Bahasa Indonesia untuk yopass oleh Johan Haals (jhaals/yopass)  
 [Yopass - Share Secrets Securely](https://github.com/jhaals/yopass)
 
-### Installation
+### Instalasi
 
-Kopiere die Datei website/public/locales/de.json in das entsprechende Verzeichnis der yopass-Installation.
+Salin file `website/public/locales/id.json` ke direktori yang sesuai pada instalasi yopass Anda.
 
-Die Sprachdatei wird automatisch erkannt und genutzt, wenn der Browser die Sprache an yopass übermittelt.
+yopass akan secara otomatis mendeteksi bahasa baru dan mengaktifkannya jika peramban anda menampilkan bahasa tersebut pada yopass.
 
 ### Container
 
-Einfach dieses Repo klonen und einen eigenen Container bauen, der die deutsche Sprachdatei in das Original-Yopass-Image von docker.io integriert.
+Cek repositori ini dan silahkan buat container Anda sendiri dengan menyertakan file terjemahan Bahasa Indonesia kedalam Yopass-Image asli dari docker.io.
 
 ```
-git clone https://github.com/Anturix/yopass-german.git
-cd yopass-german
-docker build -t anturix/yopassde -f Dockerfile
+git clone https://github.com/erolj/yopass-indonesian.git
+cd yopass-indonesian
+docker build -t erolj/yopassid -f Dockerfile
 ```

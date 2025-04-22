@@ -1,0 +1,95 @@
+{
+  "create": {
+    "title": "Enkripsi pesan",
+    "inputSecretLabel": "Pesan rahasia",
+    "inputSecretPlaceholder": "Pesan yang akan dienkripsi secara lokal di jendela peramban ini",
+    "buttonEncrypt": "Enkripsi Pesan",
+    "buttonEncryptLoading": "Mengenkripsi pesan...",
+    "inputOneTimeLabel": "Unduh sekali saja",
+    "inputPasswordLabel": "Kunci dekripsi khusus",
+    "inputGenerateLabel": "Buatkan kunci dekripsi"
+  },
+  "upload": {
+    "title": "Taruh file yang mau diunggah",
+    "caption": "Unggah file dirancang untuk file kecil seperti kunci ssh dan sertifikat.",
+    "errorFileTooLarge": "File terlalu besar"
+  },
+  "display": {
+    "titleFetching": "Mengambil dari basis data, mohon tunggu...",
+    "titleDecrypting": "Mendekripsi, mohon tunggu...",
+    "titleDecryptionKey": "Masukkan kunci dekripsi",
+    "captionDecryptionKey": "Jangan menyegarkan jendela ini karena pesan rahasia mungkin dibatasi hanya untuk sekali pengunduhan.",
+    "inputDecryptionKeyPlaceholder": "Kunci dekripsi",
+    "inputDecryptionKeyLabel": "Kunci dekripsi diperlukan, masukkan di bawah ini",
+    "errorInvalidPassword": "Kata sandi tidak valid, silakan coba lagi",
+    "buttonDecrypt": "Dekripsi Pesan"
+  },
+  "error": {
+    "title": "Pesan tidak ditemukan",
+    "subtitle": "Ini mungkin disebabkan oleh salah satu dari alasan berikut.",
+    "titleOpened": "Pernah atau sudah dibuka sebelumnya",
+    "subtitleOpenedBefore": "Sebuah pesan rahasia bisa dibatasi hanya untuk sekali diunduh. Jadi mungkin saja tidak ditemukan karena pengirim telah membuka tautan ini sebelum Anda melihatnya.",
+    "subtitleOpenedCompromised": "Pesan rahasia mungkin telah disusupi dan dibaca oleh orang lain. Anda harus menghubungi pengirim dan meminta pesan rahasia yang baru.",
+    "titleBrokenLink": "Tautan rusak",
+    "subtitleBrokenLink": "Tautan harus cocok dengan sempurna agar dekripsi berhasil, mungkin saja ada beberapa karakter yang terhilang pada tautan.",
+    "titleExpired": "Kedaluarsa",
+    "subtitleExpired": "Tidak ada pesan rahasia yang disimpan selamanya. Semua pesan rahasia yang tersimpan akan kedaluarsa dan hancur secara otomatis. Masa berlaku bervariasi dari satu jam hingga satu minggu."
+  },
+  "result": {
+    "title": "Pesan rahasia tersimpan dalam basis data",
+    "subtitleDownloadOnce": "Ingatlah bahwa pesan rahasia hanya dapat diunduh satu kali jika tidak diatur sebaliknya. Jadi jangan membuka tautan itu sendiri.",
+    "subtitleChannel": "Sebaiknya kunci dekripsi dikirim menggunakan saluran komunikasi yang terpisah.",
+    "rowLabelOneClick": "Tautan sekali-klik",
+    "rowLabelShortLink": "Tautan pendek",
+    "rowLabelDecryptionKey": "Kunci dekripsi"
+  },
+  "secret": {
+    "titleFile": "File terunduh",
+    "titleMessage": "Pesan terdekripsi",
+    "subtitleMessage": "Pesan rahasia ini mungkin tidak akan diperlihatkan lagi, pastikan untuk menyimpannya sekarang!",
+    "buttonCopy": "Salin",
+    "showQrCode": "Tampilkan QR Code",
+    "hideQrCode": "Sembunyikan QR Code"
+  },
+  "delete": {
+    "buttonDelete": "Hapus",
+    "messageDeleted": "Pesan rahasia telah dihapus dari server!",
+    "dialogTitle": "Hapus pesan rahasia?",
+    "dialogMessage": "Anda yakin ingin menghapus pesan rahasia ini?",
+    "dialogProgress": "Menghapus...",
+    "dialogConfirm": "Hapus",
+    "dialogCancel": "Batal"
+  },
+  "attribution": {
+    "createdBy": "Dibuat oleh",
+    "translatedBy": "Diterjemahkan oleh",
+    "translatorName": "Erol Joudy",
+    "translatorLink": "https://github.com/erolj"
+  },
+  "expiration": {
+    "legend": "Pesan yang terenkripsi akan terhapus otomatis setelah",
+    "optionOneHourLabel": "1 Jam",
+    "optionOneDayLabel": "1 Hari",
+    "optionOneWeekLabel": "1 Minggu"
+  },
+  "features": {
+    "title": "Berbagi rahasia dengan aman dan mudah",
+    "subtitle": "Yopass dibuat untuk mengurangi jumlah kata sandi teks yang jelas yang disimpan di email dan percakapan obrolan dengan mengenkripsi dan membuat tautan singkat yang hanya dapat dilihat sekali.",
+    "featureEndToEndTitle": "Enkripsi ujung ke ujung",
+    "featureEndToEndText": "Enkripsi dan dekripsi dilakukan secara lokal di dalam peramban. Kunci tidak pernah disimpan di yopass.",
+    "featureSelfDestructionTitle": "Penghancuran diri",
+    "featureSelfDestructionText": "Pesan terenkripsi memiliki masa berlaku yang tetap dan akan dihapus secara otomatis setelah kedaluarsa.",
+    "featureOneTimeTitle": "Unduh satu kali",
+    "featureOneTimeText": "Pesan terenkripsi hanya dapat diunduh satu kali sehingga mengurangi risiko seseorang mengintip rahasia Anda.",
+    "featureSimpleSharingTitle": "Mudah dibagikan",
+    "featureSimpleSharingText": "Yopass menghasilkan sebuah tautan sekali-klik yang unik untuk file atau pesan terenkripsi. Kata sandi dekripsi dapat dikirim secara terpisah.",
+    "featureNoAccountsTitle": "Tanpa mendaftar",
+    "featureNoAccountsText": "Berbagi itu seharusnya cepat dan mudah; Tidak ada informasi lain kecuali pesan rahasia terenkripsi yang disimpan dalam basis data.",
+    "featureOpenSourceTitle": "Perangkat lunak sumber terbuka",
+    "featureOpenSourceText": "Mekanisme enkripsi Yopass dibangun di atas perangkat lunak sumber terbuka yang berarti transparansi penuh dengan kemungkinan untuk dapat mengaudit dan mengirim fitur secara mandiri."
+  },
+  "header": {
+    "buttonHome": "Beranda",
+    "buttonUpload": "Unggah"
+  }
+}
